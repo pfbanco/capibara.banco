@@ -193,7 +193,7 @@ body{
     }
     /*GALERIA TERMINA*/
     .formIndex{
-        background-image: url(/resourse/images/fondoContacto.jpg);
+        background-image: url(./resourse/images/fondoContacto.jpg);
         background-position: center;
         background-size: cover ;
         height: 200px;
@@ -354,7 +354,7 @@ body{
     }
     form fieldset{
         text-align: center;
-        background-image: url(/resourse/images/fondoContacto.jpg);
+        background-image: url(./resourse/images/fondoContacto.jpg);
         background-position: center;
         background-size: cover;
         padding: 20px;
@@ -385,56 +385,56 @@ body{
     .item1{
         grid-column: 1/3;
         grid-row: 1/3;
-        background-image: url(/resourse/images/pinte1.jpg);
+        background-image: url(./resourse/images/pinte1.jpg);
         background-position: center;
         background-size: cover;
     }
     .item2{
         grid-column: 3/5;
         grid-row: 1/2;
-        background-image: url(/resourse/images/pinte2.jpg);
+        background-image: url(./resourse/images/pinte2.jpg);
         background-position: center;
         background-size: cover;
     }
     .item3{
         grid-column: 3/5;
         grid-row: 2/4;
-        background-image: url(/resourse/images/pinte3.jpg);
+        background-image: url(./resourse/images/pinte3.jpg);
         background-position: center;
         background-size: cover;
     }
     .item4{
         grid-column: 1/5;
         grid-row: 3/4;
-        background-image: url(/resourse/images/pinte4.jpg);
+        background-image: url(./resourse/images/pinte4.jpg);
         background-position: center;
         background-size: cover;
     }
     .item5{
         grid-column: 1/3;
         grid-row: 3/4;
-        background-image: url(/resourse/images/pinte5.jpg);
+        background-image: url(./resourse/images/pinte5.jpg);
         background-position: center;
         background-size: cover;
     }
     .item6{
         grid-column: 3/5;
         grid-row: 3/4;
-        background-image: url(/resourse/images/pinte6.jpg);
+        background-image: url(./resourse/images/pinte6.jpg);
         background-position: center;
         background-size: cover;
     }
     .item7{
         grid-column: 1/3;
         grid-row: 4/5;
-        background-image: url(/resourse/images/pinte7.jpg);
+        background-image: url(./resourse/images/pinte7.jpg);
         background-position: center;
         background-size: cover;
     }
     .item8{
         grid-column: 3/5;
         grid-row: 4/5;
-        background-image: url(/resourse/images/pinte8.jpg);
+        background-image: url(./resourse/images/pinte8.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -540,7 +540,7 @@ body{
         height: 150px;
     }
     .main-der{
-        background-image: url(/resourse/images/sillacnc.png);
+        background-image: url(./resourse/images/sillacnc.png);
         background-size: cover;
         background-position: center;
         width: 40%;
@@ -642,7 +642,7 @@ body{
         color: #98B0A8;
     }
     .formIndex{
-        background-image: url(/resourse/images/fondoContacto.jpg);
+        background-image: url(./resourse/images/fondoContacto.jpg);
         background-position: center;
         background-size: cover ;
         height: 200px;
@@ -803,7 +803,7 @@ body{
     }
     form fieldset{
         text-align: center;
-        background-image: url(/resourse/images/fondoContacto.jpg);
+        background-image: url(./resourse/images/fondoContacto.jpg);
         background-position: center;
         background-size: cover;
         padding: 20px;
@@ -833,7 +833,7 @@ body{
     .item1{
         grid-column: 1/2;
         grid-row: 1/3;
-        background-image: url(/resourse/images/pinte1.jpg);
+        background-image: url(./resourse/images/pinte1.jpg);
         background-position: center;
         background-size: cover;
     
@@ -841,49 +841,49 @@ body{
     .item2{
         grid-column: 2/3;
         grid-row: 1/2;
-        background-image: url(/resourse/images/pinte2.jpg);
+        background-image: url(./resourse/images/pinte2.jpg);
         background-position: center;
         background-size: cover;
     }
     .item3{
         grid-column: 3/5;
         grid-row: 1/2;
-        background-image: url(/resourse/images/pinte3.jpg);
+        background-image: url(./resourse/images/pinte3.jpg);
         background-position: center;
         background-size: cover;
     }
     .item4{
         grid-column: 2/3;
         grid-row: 2/4;
-        background-image: url(/resourse/images/pinte4.jpg);
+        background-image: url(./resourse/images/pinte4.jpg);
         background-position: center;
         background-size: cover;
     }
     .item5{
         grid-column: 3/4;
         grid-row: 2/3;
-        background-image: url(/resourse/images/pinte5.jpg);
+        background-image: url(./resourse/images/pinte5.jpg);
         background-position: center;
         background-size: cover;
     }
     .item6{
         grid-column: 4/5;
         grid-row: 2/3;
-        background-image: url(/resourse/images/pinte6.jpg);
+        background-image: url(./resourse/images/pinte6.jpg);
         background-position: center;
         background-size: cover;
     }
     .item7{
         grid-column: 1/2;
         grid-row: 3/4;
-        background-image: url(/resourse/images/pinte7.jpg);
+        background-image: url(./resourse/images/pinte7.jpg);
         background-position: center;
         background-size: cover;
     }
     .item8{
         grid-column: 3/5;
         grid-row: 3/4;
-        background-image: url(/resourse/images/pinte8.jpg);
+        background-image: url(./resourse/images/pinte8.jpg);
         background-position: center;
         background-size: cover;
     }
