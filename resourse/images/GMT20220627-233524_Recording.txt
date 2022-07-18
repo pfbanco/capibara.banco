@@ -1,0 +1,514 @@
+01:14:54	Matias Pereyra:	La ram de esa compu no da mas jajja
+01:15:08	[Tutor] Jonatan Pereyra:	Decile que aguante hasta que termine el curso Mati
+01:15:15	[Tutor] Jonatan Pereyra:	Pedile un ultimo esfuerzo
+01:15:21	Nelson Parra Paz:	buenas noches
+01:15:43	Nelson Parra Paz:	pregunta, si no se entrega hoy, hay alguna otra fecha tope para poder entregar?
+01:15:55	[ Tutor ] Eduardo Arevalo:	Entreguen si o si algo chicos
+01:16:00	Nelson Parra Paz:	perdón, pero no tuve mucho tiempo para dedicarle  esta semana
+01:16:00	Gustavo Casavieja:	Buenas noches
+01:16:19	Carlos Molina:	Buenas noches
+01:16:40	[Tutor] Sebastian Elefanté:	Nelson las re-entregas son por situaciones extraordinarias o emergencias, no porque no tuviste tiempo. La beca es muy clara con ese tema
+01:16:48	Pablo Vasquez:	pregunta, sobre el trabajo que se entrega el miercoles. hay que añadirle css a las 5 paginas o solo a la principal?
+01:16:55	[Tutor] Sebastian Elefanté:	A las 5
+01:17:09	Pablo Dattolo:	Hola buenas noches
+01:17:10	[coord]gonzalo rodriguez:	Pueden re-entregar hasta 3 veces durante la cursada.
+01:17:28	Nelson Parra Paz:	ok, vale
+01:17:30	[coord]gonzalo rodriguez:	luego de esas 3 veces, pierden la beca y se debe pagar un extra
+01:17:34	Nelson Parra Paz:	gracias!
+01:17:57	Carlos Molina:	UY
+01:18:12	Nelson Parra Paz:	ah! bueno, haré lo que pueda 👍
+01:19:02	Winston Elias Mendez Torres:	Hola, buenas noches !
+01:19:41	Fara Temi:	buenas noche
+01:19:45	Fara Temi:	nochess
+01:19:47	sofiagelardi:	Buenas!
+01:19:51	Fara Temi:	donde se pueden ver los ejemplosc
+01:20:00	Fara Temi:	yo por ejemplo no entendí que entregar el miércoles ?
+01:21:02	[ Tutor ] Eduardo Arevalo:	Fara, el miércoles es la primer entrega completa del proyecto.
+01:21:29	Fara Temi:	claro pero quiero ver un ejemplo de que tengo que entregar
+01:21:56	[Tutor] Jonatan Pereyra:	No se si hay ejemplos, pero en las rubricas esta exactamente que se pide
+01:21:59	Ignacio Rossetto:	Buenas!
+01:22:11	[Tutor] Jonatan Pereyra:	Y como cuenta cada cosa para el puntaje
+01:22:29	Cristian Holzmann:	va a haber un after class con esto(flexbox) como dijeron?
+01:22:43	[ Tutor ] Eduardo Arevalo:	si Cristian
+01:23:17	Cristian Holzmann:	gracias
+01:23:18	Fara Temi:	es decir entregar el trabajo con lo visto hasta hoy con flexbox
+01:23:20	Fara Temi:	todo '
+01:24:04	Nicolas Gennaro:	una consulta, si recibo la entrega del trabajo que envie oara corregir algo, cuenta como una de esas 3 veces? o solo cuenta si esta desaprobado?
+01:24:46	[ Tutor ] Eduardo Arevalo:	Si esta desaprobado, esta desaprobado. La reentrega es cuando no se entrega nada de nada y se justifica el motivo
+01:24:54	[ Tutor ] Eduardo Arevalo:	Máximo 3 veces en toda la cursada
+01:25:11	Nicolas Gennaro:	ah listo, genial, osea que si entregue y tengo que corregir algo, no cuenta como una de esas 3 veces, no?
+01:25:16	[coord]gonzalo rodriguez:	Fara, en la diapositiva de la 1er pre entrega pide ciertas pautas por cumplir.
+Podes hablarle por privado a tu tutor y preguntar tus dudas de cada punto
+01:25:29	[coord]gonzalo rodriguez:	así lo podes comprender mejor
+01:25:35	Fara Temi:	gracias
+01:25:42	[coord]gonzalo rodriguez:	si tu tutor no contesta, me hablas por privado
+01:26:09	Cristian Holzmann:	si
+01:26:10	Ignacio Rama:	sisi
+01:26:10	[coord]gonzalo rodriguez:	(cuando menciono privado, me refiero a la platforma de coderhouse)
+01:26:20	felixdugo:	puede decirlo de nuevo oporfe
+01:26:23	Franco Salazar:	me lo pasan no me acuerdo :P
+01:26:32	Kevin Bartoliche:	pasalooo
+01:27:19	[coord]gonzalo rodriguez:	https://flexboxfroggy.com/#es
+01:27:26	Carlos Molina:	pero con flexbox Tambien puede moverse tanto horizontal como vertical
+01:27:31	Carlos Molina:	no?
+01:28:14	[tutor] Henry De la ossa:	si carlos, pero hay mas que eso
+01:28:19	[tutor] Henry De la ossa:	atento al profe
+01:28:53	Beatriz Moya:	Creo que si se podría separando por section. Eso creo.
+01:29:00	Pablo Vasquez:	no
+01:29:01	Beatriz Moya:	Si
+01:29:02	Franco Sanchez:	si
+01:29:03	Ignacio Rama:	medio que no
+01:29:03	DAMIAN FORTE:	sisis
+01:29:03	Franco Salazar:	si
+01:29:04	Carlos Molina:	si
+01:29:04	Kevin Bartoliche:	si
+01:29:05	Jorge Ruanova:	si
+01:29:06	Walter Duque Fernandez:	si
+01:29:06	Naza Barbulo:	si
+01:29:06	Lautaro Porzio:	si
+01:29:07	Jean Campos:	si}
+01:29:07	Katherine Ince:	si
+01:29:07	Debora Tello:	si
+01:29:10	Cristian Emanuel Ortega Camarena:	si pero es un desorden
+01:29:11	Kevin Bartoliche:	si puedo con mi vieja porq no ellos?
+01:29:13	Kevin Bartoliche:	jaja
+01:29:15	Nicolas Gentile:	Si, metes un grid dentro de un flex
+01:30:56	[coord]gonzalo rodriguez:	Carlos, si. la diferencia es que grids tiene como que.. mmm 'mas personalización '/'mas facilidad' al momento de ubicar elementos hijos
+01:33:21	Carlos Molina:	okok
+01:34:22	Maximo Abaca Macua:	a
+01:35:37	Carlos Molina:	son unidades fraccionarias con respecto aque
+01:35:46	Leandro Lobo:	a un 100%
+01:35:57	Leandro Lobo:	si pones 6 van a ser seis sextos
+01:36:06	Leandro Lobo:	si pones 3, van a ser 3 tercios
+01:36:18	[coord]gonzalo rodriguez:	exactamente
+01:36:20	Carlos Molina:	👍🏾
+01:37:17	Ignacio Rama:	y se puede modificar el espaciado entre columnas y filas
+01:37:58	[coord]gonzalo rodriguez:	si
+01:38:26	[coord]gonzalo rodriguez:	con la propiedad gap. ya lo vamos a ver
+01:38:59	Ignacio Rama:	joyaa
+01:39:31	Leandro Lobo:	se puede sumar 1 repeat a otro repeat distinto? no se si me hago entender
+01:39:59	[coord]gonzalo rodriguez:	No comprendo
+01:40:19	Leandro Lobo:	claro, si quiero 8 columnas, q 4 tengan 1 fr y q 4 tengan 2fr, puedo expresar eso con 2 repeat?
+01:40:53	[coord]gonzalo rodriguez:	repeat(8, 1fr)
+repeat(4, 2fr)
+01:40:54	[coord]gonzalo rodriguez:	si
+01:41:02	Leandro Lobo:	genial, gracias!
+01:41:46	Matias Pereyra:	No entendí lo de la fila demás
+01:44:03	Pedro Francisco Banco:	Lo implicito siempre son las filas, no las columnas, porque siempre que sobran elementos crea una nueva fila no una columna?
+01:44:04	Matias Pereyra:	Claro. Ahí va.
+01:45:55	Carlos Molina:	que unidad es mejor utilizar?
+01:46:53	Lautaro Porzio:	el primero es de filas y la segunda para columnas ?
+01:47:04	Geovanny Moreno:	el primer valor siempre va a representar el eje de las "x" y el segundo de las "y", verdad?
+01:47:08	Carlos Molina:	gaps y grid gaps hace lo mismo al parecer
+01:47:09	Pablo Vasquez:	y el 3ro para las 2 juntas?
+01:47:16	Carlos Adán Álvarez Ballesteros:	Esta super cool
+01:47:26	Micaela Palleiro:	todo super bien
+01:47:28	Lautaro Porzio:	quisiera verlo como aplicarlo en un trabajo
+01:47:31	Katherine Ince:	en grid gap el 50px es para las filas?
+01:47:31	Kevin Bartoliche:	allgun ejemplo en algún sitio ?
+01:47:32	Lautaro Porzio:	pero entiendo bien
+01:47:36	[ Tutor ] Eduardo Arevalo:	Ninguna duda??
+01:47:40	Ignacio Rama:	creo que mezclar flexbox y grids me va a facilitar bastante jajjaa
+01:47:45	Matias Pereyra:	Con dificultad, pero vamos bien..
+01:47:48	[Tutor] Agustin Bramsen:	Pregunten sin miedo
+01:47:57	felixdugo:	si quiero hacer un fasaje de fotos , como le doy movilidad y que vayan pasando las fotos?
+01:47:58	Regina Goyenechea:	un ejemplo de grid irregular
+01:48:01	Carlos Licea:	el grid-column-gap para que servia? se me esta trabando un poco
+01:48:03	[Tutor] Agustin Bramsen:	todas las dudas que tengan es mejor resolverlas  y no quedarse con ellas
+01:48:08	Facu Torra:	se peude poner un enlace en esos box?
+01:48:36	Naza Barbulo:	con los box entonces podes hacer galerias ?
+01:48:44	Facu Torra:	bueno genial, gracias profe
+01:48:47	Lautaro Julian Iglesias:	sirve para por ejemplo dividir en dos el inicio de la web? por ejemplo una foto a la izquierda y un texto a la derecha?
+01:48:49	[Tutor] Jonatan Pereyra:	el gap es una especie de "margin"
+01:48:53	Micaela Palleiro:	o sea puedo poner cualquier contenido
+01:48:54	Micaela Palleiro:	adentro
+01:48:57	[Tutor] Jonatan Pereyra:	pero exclusivo de grid 
+01:48:59	Micaela Palleiro:	textos, imágenes y demas
+01:49:03	Ignacio Rama:	esto podría reemplzar a las tablas de html
+01:49:05	Ignacio Rama:	??
+01:49:09	[Tutor] Jonatan Pereyra:	Si Nacho
+01:49:12	Nicolas Gentile:	Eso necesito
+01:49:13	[Tutor] Jonatan Pereyra:	de hecho ya no se usan tablas para nada
+01:49:15	[ Tutor ] Eduardo Arevalo:	Correcto Nacho
+01:49:19	Ignacio Rama:	perfecto
+01:49:45	[coord]gonzalo rodriguez:	las tablas html se consideran obsoletas
+01:50:11	Naza Barbulo:	y yo que las usaba
+01:50:35	[ Tutor ] Eduardo Arevalo:	Si gonzalo
+01:50:42	[ Tutor ] Eduardo Arevalo:	Porque ahora se usa Grid
+01:51:03	[ Tutor ] Eduardo Arevalo:	No esta obsoleto completamente, en mi trabajo algunos lo usan, pero se considera mala practica
+01:51:49	Nicolas Gentile:	Claro tiene 4 filas y 3 columnas
+01:52:12	Carlos Molina:	aaaaahhhhhh
+01:52:18	Carlos Molina:	3
+01:52:19	Leandro Lobo:	3
+01:52:19	Alejandro Chaves:	3
+01:52:19	Pablo Vasquez:	4
+01:52:20	Alejandro Chaves:	3
+01:52:20	Ignacio Rama:	3
+01:52:21	Cristian Holzmann:	3
+01:52:21	Micaela Palleiro:	3
+01:52:22	Geovanny Moreno:	3
+01:52:23	Pamela Vallejos:	3
+01:52:23	Pedro Francisco Banco:	3
+01:52:23	Jorge Ruanova:	3
+01:52:26	[Tutor] Agustin Bramsen:	bien!
+01:52:28	Rodrigo Reparaz:	4
+01:52:28	Leandro Lobo:	4
+01:52:29	Pedro Francisco Banco:	4
+01:52:29	Ignacio Rama:	4
+01:52:29	Micaela Palleiro:	4
+01:52:30	Pamela Vallejos:	4
+01:52:30	Carlos Molina:	4
+01:52:30	Pablo Vasquez:	4
+01:52:30	Cristian Holzmann:	4
+01:52:31	Jorge Ruanova:	4
+01:52:31	Geovanny Moreno:	4
+01:52:31	Carlos Adán Álvarez Ballesteros:	4
+01:52:32	Alejandro Chaves:	4
+01:52:32	Beatriz Moya:	4
+01:52:32	Regina Goyenechea:	4
+01:52:33	eduardo hartmann:	4
+01:52:39	Edison Rojas Avila:	4
+01:53:10	Leandro Lobo:	osea, lo que estamos viendo ahora, es una forma alternativa de hacer lo que vimos antes, no?
+01:53:10	Carlos Molina:	y como defines el tama;o de bloque de navegacion aparte de los demas
+01:53:13	Nicolas Gentile:	Perdon el ID grilla donde va?
+01:53:36	[ Tutor ] Eduardo Arevalo:	Exacto Lean
+01:53:44	[ Tutor ] Eduardo Arevalo:	Es la forma actual
+01:54:11	[ Tutor ] Eduardo Arevalo:	No entendí la pregunta Carlos
+01:54:16	[ Tutor ] Esteban Hirzfeld:	Lean igual flex y grid a veces son complementarios
+01:54:38	Leandro Lobo:	claro entiendo
+01:54:51	Carlos Molina:	osea como define los tama;os de los bloqques? para que sean diferente entre ellos
+01:56:11	[ Tutor ] Eduardo Arevalo:	En tema distancia o tamaño Carlos?
+01:56:24	Carlos Molina:	tama;o
+01:56:33	Leandro Lobo:	creo que Carlos se referia a que navegación ocupa 3 filas por ejemplo
+01:56:40	Carlos Molina:	eso mismo
+01:56:41	Geovanny Moreno:	si se usa flex-direction se puede centrar section#productos?
+01:56:59	Leandro Lobo:	fue lo primero que definio, en la sección de template areas
+01:57:00	Geovanny Moreno:	cambiando las medidas de height y widht
+01:57:34	Carlos Molina:	ahhhhhhhhhhhhhhhh
+01:57:38	Lautaro Porzio:	aahahahahhahaha
+01:57:40	Pablo Vasquez:	se entiende
+01:57:46	Lautaro Porzio:	ahora se entiende
+01:57:47	Alberto Alvarez:	perfecto
+01:57:51	Alejandro Chaves:	esta re bueno
+01:57:58	Carlos Licea:	Y es responsive?
+01:58:00	Beatriz Moya:	no me gusta compli
+01:58:03	Kevin Bartoliche:	yo lo ame ajajja
+01:58:08	Micaela Palleiro:	literal me estuve matando con los padding y los margins
+01:58:13	Naza Barbulo:	aguante flex xd
+01:58:15	Beatriz Moya:	flex love
+01:58:16	Pablo Vasquez:	x2
+01:58:18	Nicolas Gennaro:	yo también mica JAJA
+01:58:27	Nicolas Gennaro:	me quedaba todo asqueroso, pero bueno, pude solucionarlo
+01:58:33	Carlos Adán Álvarez Ballesteros:	Creo que si es responsive, ya se ganó mi corazón jaja
+01:58:39	Micaela Palleiro:	si, mas o menos yo tmb jajajjajajja
+01:58:46	Micaela Palleiro:	si creo que es responsive
+01:59:00	Micaela Palleiro:	debere empezar mi proyecto de cero jajajajaja
+01:59:08	Carlos Adán Álvarez Ballesteros:	jajaja
+01:59:10	Carlos Adán Álvarez Ballesteros:	todos
+01:59:15	Franco Sanchez:	se puede poner por ejemplo un elemento pero separado entre si?
+01:59:16	Kevin Bartoliche:	consulta , si yo ya hice el trabajo final con los padding y etc , tengo q ponerle grid? me conviene hacerlo nuevo ajaj
+01:59:24	[ Tutor ] Eduardo Arevalo:	Bienvenidos al mundo it jaja
+01:59:30	Pablo Vasquez:	a empezar denuevo
+01:59:31	Pablo Vasquez:	jajaj
+01:59:36	[ Tutor ] Eduardo Arevalo:	Todo van a tener que modificar durante trabajan jaja
+01:59:46	Micaela Palleiro:	:(((
+01:59:56	Micaela Palleiro:	ya no quiero jugar mas a la programación
+01:59:59	Naza Barbulo:	a empezar denuevo entonces
+02:00:06	[ Tutor ] Eduardo Arevalo:	Y migrar de tecnologías es el pan de cada dia cuando no hay proyectos jaja
+02:00:28	Franco Salazar:	si le quiero dar opacidad?  :P
+02:00:32	[coord]gonzalo rodriguez:	todo o la mayoria de lo que realicen durante la cursada, va a sufrir cambios con los nuevos temas enseñados
+02:00:34	Carlos Adán Álvarez Ballesteros:	Se puede mover la imagen de posición? Ósea mas a la derecha o más arriba?
+02:00:36	Carlos Molina:	Una maravilla
+02:00:57	Pablo Vasquez:	me esta llegando recien la info
+02:01:08	Gustavo Casavieja:	Profe deje estos ejemplos en algún lado que son de ayuda
+02:01:16	Nicolas Gentile:	profe, se le puede poner un fondo en común a toda la grilla?
+02:01:51	Geovanny Moreno:	Se podría hace un tipo puzzle usando las grids?
+02:02:06	[ Tutor ] Eduardo Arevalo:	Si Geovanny
+02:02:20	Geovanny Moreno:	cool
+02:02:25	[ Tutor ] Eduardo Arevalo:	Por ejemplo, cuando aprendan Js y quieran hacer un tablero de ajedrez, van a usar grids
+02:02:35	Naza Barbulo:	osea que se puede usar para movile?
+02:02:43	[ Tutor ] Eduardo Arevalo:	Si naza
+02:02:47	Naza Barbulo:	joya
+02:02:48	[ Tutor ] Eduardo Arevalo:	Grid se usa en mobile
+02:02:52	Naza Barbulo:	facilita todo
+02:02:55	Naza Barbulo:	=D
+02:03:05	Beatriz Moya:	grid template área, no lo entendí bien las rows. cual ocupa 100px, 120px, 120px, 150px
+02:03:10	Naza Barbulo:	creo que me estoy cambiando de flex a grid ya
+02:03:24	[ Tutor ] Eduardo Arevalo:	Ahora con mediaq van a ver como se puede adaptar a mobile
+02:04:28	Naza Barbulo:	okas grax =D
+02:04:45	Ignacio Rossetto:	Los items del grid tienen margin, padding?
+02:05:30	Geovanny Moreno:	aside es otro contendeor genérico o tiene alguna utilidad que lo diferencie?
+02:05:33	[coord]gonzalo rodriguez:	podes aplicarselos con la propiedad gap ignacio
+02:05:49	[coord]gonzalo rodriguez:	y padding a cada elemento hijo
+02:06:13	Carlos Adán Álvarez Ballesteros:	gracias
+02:06:29	Franco Salazar:	se puede usar el grid en la entrega del miércoles :B
+02:06:31	Franco Salazar:	?
+02:06:32	[ Tutor ] Eduardo Arevalo:	Chicos de mi tutoria ya pase lista
+02:06:38	[coord]gonzalo rodriguez:	aside es una etiqueta html semantica.
+he visto que se utiliza para poner links que redirigen dentro del mismo sitio
+02:06:50	[ Tutor ] Eduardo Arevalo:	los que aun no entregaron la segunda entrega, háganlo antes de las 23hs por favor
+02:07:04	Geovanny Moreno:	Gracias Gonza
+02:07:10	Pedro Francisco Banco:	Eduardo llego mi entrega?
+02:07:52	[Tutora] Emilce Daiana Molina:	Chicos 🗣 asistencia tomada a todos mis tutoriados, el único ausente que tengo es de : Diego velazquez (si estás acá mándame un mje al chat de la plataforma porfavor)
+02:08:35	[coord]gonzalo rodriguez:	beatriz, las medidas que pasaste son de rows?
+02:08:43	[coord]gonzalo rodriguez:	si es así, se leen de arriba hacia abajo
+02:09:05	Katherine Ince:	Una consulta si quiero que uno de los elementos por ejemplo el footer tenga un tamaño menor al resto como sería?
+02:09:25	[coord]gonzalo rodriguez:	la primera de arriba va a tener 100px de alto.
+la segunda de arriba, va a tener 120px de alto
+02:09:29	[coord]gonzalo rodriguez:	y asi sucesivamente
+02:09:35	(Profesor) Emanuel Cabral:	podes usar height o width
+02:11:26	[Tutor] Jonatan Pereyra:	Franco Tomas Coronel, Gonzalo Otreras, Granada Cardona, Hugo Vázquez Rivera estan por ahi?
+02:13:39	Kevin Bartoliche:	puede ser que para algunas paguinas funcione mejor una tecnología que otra?
+02:13:50	[Tutor] Agustin Bramsen:	Exacto Kevin
+02:14:12	Carola Donadío:	¿Hoy en día se usa más flexbox o grid?
+02:14:13	[Tutor] Agustin Bramsen:	depende lo que necesites y se adapte al diseño web que te piden
+02:14:18	Kevin Bartoliche:	y ahí es donde nos pagan por saber que tornillo ajustar no? (según el dicho) jaja
+02:14:29	[Tutor] Agustin Bramsen:	ajaja podría decirse que si jaja
+02:14:39	[Tutor] Agustin Bramsen:	Caralo, eso depende de cada uno
+02:14:41	Franco Salazar:	para celulares , osea para verlos en diferentes dispositivos
+02:14:44	Franco Salazar:	que conviene?
+02:14:45	[Tutor] Agustin Bramsen:	hay mucha gente que no le gusta utilizar grid
+02:15:00	Geovanny Moreno:	la verdad que le cogí el tino a flex, ahora toca que ver que tal el mundo de grid :v
+02:15:12	(Profesor) Emanuel Cabral:	https://flexboxfroggy.com/#es
+02:15:18	[Tutor] Agustin Bramsen:	desde mi punto de vista grid me gusta mucho mas
+02:15:35	Debora Tello:	es mas ordenado y responsivo
+02:15:44	Kyu Min Park:	Ya llegué al nivel 24
+02:15:47	Franco Salazar:	border?
+02:15:48	Franco Salazar:	:P
+02:15:48	Kevin Bartoliche:	row?
+02:15:49	Alexis Aldazoro:	space between no?
+02:15:49	Pablo Vasquez:	justifi content: space aroun
+02:15:50	Carola Donadío:	space-between
+02:15:57	Walter Duque Fernandez:	space-between
+02:16:08	Jose Eduardo Carreon Tula:	betwen
+02:17:25	Franco Salazar:	me queda la dua de imágenes veticales como seria?
+02:17:29	[tutor] Henry De la ossa:	******asistencia a mis tuturiados pasada******-  Luis Fernando Gonzales Calderon-  Matias Salasse encuentran???
+02:17:35	[tutor] Henry De la ossa:	******asistencia a mis tuturiados pasada******-  Luis Fernando Gonzales Calderon-  Matias Salasse encuentran???
+02:17:45	Fernando Gonzales Calderon:	aquí estoy
+02:18:41	DAMIAN FORTE:	muy bueno
+02:18:50	Franco Salazar:	ya tomo asistencia mi tutor?
+02:18:54	Franco Salazar:	:B
+02:19:07	[tutor] Henry De la ossa:	******asistencia a mis tuturiados pasada******-  Matias Salasse encuentra???
+02:19:36	[Tutor] Agustin Bramsen:	******asistencia a mis tuturiados pasada******-  Lucas samalbide-  Leandro Torresse encuentran???
+02:20:39	Alejandro Chaves:	3
+02:20:39	Jorge Ruanova:	4
+02:20:40	Cristian Holzmann:	4
+02:26:24	Jesica Schaffer:	si quiero intercalar en la misma fila imagen y texto al lado (por ejemplo una imagen a la derecha, texto a la izquiera) en la misma fila... se puede?
+02:26:49	[Tutor] Jonatan Pereyra:	Se puede!
+02:26:50	Nicolas Gentile:	Lo dividis en 2 columnas
+02:26:51	Rodrigo Reparaz:	Y puedo modificar los tamaños de grid desde esa vista o si o si colocando código?
+02:27:01	[Tutor] Jonatan Pereyra:	Yo lo haria con flex, pero se puede con grid tambien
+02:29:11	Nicolas Gentile:	No faltaría definir 1 fila mas?
+02:29:18	Jorge Ruanova:	eso iba a preguntar
+02:29:36	Jorge Ruanova:	eran 4 cols y 3 filas no?
+02:32:10	Jorge Ruanova:	ah listo ahora si, jajaj pensé que no había entendido
+02:32:15	Rodrigo Reparaz:	aaaah ahí está
+02:33:48	Carlos Molina:	esta clase se valora?
+02:34:26	Nicolas Gennaro:	la prox
+02:35:31	[Tutor] Jonatan Pereyra:	Las clases pares no se valoran mas
+02:35:39	Carlos Licea:	puedes utilizar solo grid para hacer todo responsive?
+02:35:47	[Tutor] Jonatan Pereyra:	Se puede
+02:35:53	[Tutor] Jonatan Pereyra:	Aunque siempre se necesita de otras cosas
+02:35:54	[Tutor] Jonatan Pereyra:	como flex
+02:36:07	Carlos Licea:	Gracias!
+02:36:11	[ Tutor ] Eduardo Arevalo:	Flex y grid siempre vas a usar Carlos
+02:36:25	[ Tutor ] Eduardo Arevalo:	En mobile los vas a combinar
+02:36:47	Jesica Schaffer:	gente, para darle estilo a todas las secciones del html en css, cómo se hace? hay que sumar algo?, porque hasta ahora siempre el css se aplicó sobre el index. AYUUUUUDA :)
+02:36:52	Carlos Licea:	😯
+02:37:12	Nicolas Gennaro:	perdón, no vi como hizo los bordes redondeados
+02:37:18	Pablo Vasquez:	x2
+02:37:19	Carlos Licea:	border radius
+02:37:20	Rodrigo Reparaz:	border-radius
+02:37:21	Carola Donadío:	Jesica, ¿Vinculaste los demás html con css?
+02:37:24	Carlos Licea:	10px
+02:37:26	Nicolas Gennaro:	graciasss
+02:37:46	Jesica Schaffer:	Carola sísi, todas vinculadas las secciones
+02:38:01	Carola Donadío:	fijate las class o id 
+02:38:13	Carola Donadío:	Que sean las mismas en html y css
+02:38:56	Carlos Adán Álvarez Ballesteros:	no
+02:38:59	Carlos Adán Álvarez Ballesteros:	Es la primera vez
+02:39:18	Carlos Adán Álvarez Ballesteros:	Fue con la tecla tab?
+02:39:29	Beatriz Moya:	Linkealo a todos tus HTML el css. Recorda en que nivel están tus HTML. dependiendo tenes que agregar../
+02:39:47	Jesica Schaffer:	si, están linkeados
+02:39:59	Jesica Schaffer:	mi pregunta era sin con eso solo ya estaba
+02:40:13	Geovanny Moreno:	se usa el mismo css para toda la web o se crea una css para cada sección html? Yo me estoy creando un css para cada seccion...
+02:40:15	Rodrigo Reparaz:	y habría que linkear cada .HTML al estilos.css o con que esten linkeados al index.html eso lo estaría vinculando también al estilos.css?
+02:40:47	[ Tutor ] Eduardo Arevalo:	Lo más ordenado, para no perderte, es un css por cada sección
+02:40:49	Pablo Vasquez:	yo igual geovanny sino se hace muy largo todo
+02:40:55	Rodrigo Reparaz:	(considerando obviamente que el index.html ya está linkeadpo)
+02:41:00	[coord]gonzalo rodriguez:	1 archivo.css
+02:41:08	Beatriz Moya:	Es un único css para todos los html
+02:41:31	Nicolas Gentile:	Por? Yo hago un css para cada html
+02:41:31	Nicolas Gennaro:	lo ideal es un css para cada HTML , sino te volves loco
+02:41:39	Geovanny Moreno:	Super, pensé que era mi ocd en acción... vamos por buen camino
+02:41:45	Carola Donadío:	Yo uso un único archivo css pero le voy agregando comentarios 
+02:41:59	Rodrigo Reparaz:	osea que da lo mismo? porque un par están diciendo un archivo único y otros un css por html
+02:42:04	Naza Barbulo:	se puede hacer un css para cada HTML pero creo que es mala practica
+02:42:13	Beatriz Moya:	Lo dividis por comentarios de estilos agregados
+02:42:15	Nicolas Gennaro:	yo para tenerlo mas ordenado y no hacer cagadas, hice un css para cada HTML que hice
+02:42:21	felixdugo:	profeee puede mostrar los ultimos items
+02:42:23	felixdugo:	porf vaor
+02:42:30	[coord]gonzalo rodriguez:	es mala práctica, se suele utilizar más de 1 css para proyectos muy muy grandes
+02:42:30	felixdugo:	item 7 y 8
+02:42:38	felixdugo:	como quedan las grids
+02:43:14	Rodrigo Reparaz:	Okey Gonzalo, y linkeo cada HTML al css o con que esten linkeados al index que está linkeado al css está bien?
+02:44:25	[coord]gonzalo rodriguez:	cada html debe estar linkeado a ese css
+02:44:41	Geovanny Moreno:	tendrías que linkearlo al html correspondiente, así estoy haciendo yo "nosotros.html" con "nostros.css"
+02:45:01	Alexis Aldazoro:	y si necesito que la propiedad transform que se aplica a ese elemento quiero que también su regreso a su forma  normal sea lenta?
+02:45:02	Rodrigo Reparaz:	gracias
+02:45:21	Nicolas Gentile:	Se prende fuego la pagina jajaja
+02:45:21	[coord]gonzalo rodriguez:	No Geovanny, en ese caso vas a estar usando 1 css por cada html
+02:45:22	[ Tutor ] Eduardo Arevalo:	Si tienen un style.css global, global a todo. si trabajan por sección, según la sección
+02:45:23	Alexis Aldazoro:	ya lo hizo
+02:45:30	[coord]gonzalo rodriguez:	y es 1 css para 5 html
+02:46:07	Geovanny Moreno:	ahí si me perdí
+02:46:12	Naza Barbulo:	en esos casos asi para no perderse se usa sections y divs con class o no?
+02:46:15	Beatriz Moya:	Uff buenisimo
+02:46:24	Lautaro Julian Iglesias:	muy bueno
+02:46:30	Katherine Ince:	genial
+02:46:36	Franco Sanchez:	º👏
+02:46:36	Debora Tello:	buenisimoo
+02:46:42	Beatriz Moya:	filter genial
+02:46:48	Pablo Vasquez:	eso le puedo agregar al trabajo que hay que entregar el miercoles?
+02:46:51	Franco Sanchez:	:houver
+02:46:54	[ Tutor ] Eduardo Arevalo:	si, pablo
+02:46:54	Franco Sanchez:	un loco
+02:46:55	Naza Barbulo:	que hiso aaa me perdi xd, puso hover o q? xd
+02:47:03	Alan Jonantan norma:	buen efecto para la. entrega
+02:47:06	[ Tutor ] Eduardo Arevalo:	Un hover Naza
+02:47:06	Nicolas Gennaro:	esta mal hacer eso Gonzalo? yo cree un css para cada HTML, y fui dándole otros estilos , para no usar un solo css
+02:47:28	[tutor] Henry De la ossa:	no es buena practica nicolas
+02:47:42	Naza Barbulo:	nicolas, segun yo para es oestan los sections y div con class
+02:47:42	Carola Donadío:	Me encanto
+02:47:47	Carlos Licea:	Estas excelente
+02:47:49	Franco Sanchez:	peor
+02:47:52	Kevin Bartoliche:	me encanto
+02:47:52	Micaela Palleiro:	excelenteeee
+02:47:53	Cesar Quiroga:	muy buena
+02:47:53	Carlos Licea:	A mi me falla un poco el flex
+02:47:54	Franco Sanchez:	prefiero la otra
+02:47:55	Ignacio Rama:	me va afacilitar bastante creo
+02:47:57	Micaela Palleiro:	no no, mas fácil
+02:47:57	Lautaro Porzio:	a mi me encanto, personalmente pq en mi proyecto quería hacer una galeria
+02:47:58	Beatriz Moya:	yo quiero hacer una animacion. Qu caiga un cartel
+02:47:58	Carlos Molina:	seve facil
+02:47:59	Facu Torra:	buenisima
+02:48:00	Alberto Alvarez:	Me va a solucionar la vida
+02:48:01	samuel carrizo:	dificil
+02:48:02	felixdugo:	puede mostrarme los ultomos dps itemss
+02:48:03	Carlos Licea:	Va a haber afterclass de flex?
+02:48:06	Franco Salazar:	esta buena, igualmente hay q practicarlo
+02:48:06	Pablo Vasquez:	x2 alberto
+02:48:06	Hermar Lopez Garcia:	grid me agrada un poco más
+02:48:08	Pedro Francisco Banco:	Y pensar que perdi tanto tiempo contigo box model
+02:48:08	Cristian Emanuel Ortega Camarena:	poquito mas complicada pero nadie me habia enseñado las herramientas
+02:48:11	felixdugo:	los ultomos dos items 7 y 8
+02:48:12	Alexis Aldazoro:	me gustó mas flex jajaa
+02:48:14	Cristian Emanuel Ortega Camarena:	se me hizo mas entendible
+02:48:25	Ignacio Rama:	seguro voy a combinar flexbox y grids
+02:48:36	Franco Salazar:	a vos que te gusta mas flex o grid??
+02:48:50	Beatriz Moya:	grid template areas me complico la existencia
+02:49:28	Cristian Emanuel Ortega Camarena:	nos pudieras dejar el html? para seguirlo usando en base a
+02:50:06	Leandro Lobo:	eso, lo mismo q cristian
+02:50:39	[coord]gonzalo rodriguez:	nico, no es buena práctica
+02:51:05	[coord]gonzalo rodriguez:	muchisimo más adelante vamos a ver como estructurar css
+02:51:55	Nicolas Gennaro:	ah bueno, esta bien, yo por que ya hice la entrega de hoy y del miércoles asi como les dije, no esta mal, pero no es lo correcto
+02:52:31	Cesar Quiroga:	porque el 5 no hace lo mismo?
+02:52:51	Geovanny Moreno:	Gonza, entonces para usar un mismo css para (hasta 5 htmls) solo tendría que asegurarme que los id y class no se repitan?
+02:53:34	Nicolas Gennaro:	si Geovanny, exactamente
+02:53:56	Geovanny Moreno:	y el tema de la jerarquía no afectaría a los demás htmls que están enlazados?
+02:54:24	Geovanny Moreno:	no, verdad?
+02:55:13	Rodrigo Reparaz:	entendería que no porque son .HTML distintos entre sí
+02:55:48	[coord]gonzalo rodriguez:	las clases se pueden repetir
+02:56:03	Carlos Molina:	ese documento lo pueden pasar?
+02:56:16	[coord]gonzalo rodriguez:	los id's deben de ser únicos
+02:56:36	[coord]gonzalo rodriguez:	pero no es necesario que implementen tanto id, sino más clases
+02:58:55	Carlos Adán Álvarez Ballesteros:	Todo bien
+02:59:01	Carola Donadío:	Todo claro
+02:59:03	Debora Tello:	sii
+02:59:04	Alberto Alvarez:	Todo perfecto
+02:59:05	Victor Gómez:	Todo bien :-)
+02:59:06	Leandro Lobo:	esta claro
+02:59:20	Walter Duque Fernandez:	jajaj
+02:59:25	Edison Rojas Avila:	hay algún sitio donde se encuentren todas estas propiedades?
+02:59:27	Geovanny Moreno:	Bien por ahora, las dudas saldrán cuando vaya a la práctica 😂
+02:59:33	Franco Sanchez:	pasaron el link de el sition de grids?
+02:59:50	Romina Montenegro:	Profe nos puede dar el archivo este que uso para explicarnos grid y las propiedades?
+03:00:02	Franco Peralta:	va a haber algún desafío que va incluido este tema ?
+03:00:19	Romina Montenegro:	Genio, gracias.
+03:00:24	Facu Torra:	donde están las anotaciones?
+03:00:24	Franco Salazar:	genial
+03:01:40	[tutor] Henry De la ossa:	*****mensaje para todos y en especial mis tutoriados*****hagan lo posible por asistir a estos 3 after que vienen, mañana, jueves, y viernes.es importante que asistan para salir de dudas y aprender mas
+03:02:14	Carlos Molina:	toda esta semana afterclass?
+03:02:22	Micaela Palleiro:	efe
+03:02:27	Micaela Palleiro:	mientras se hagan tarde
+03:02:31	Micaela Palleiro:	genial
+03:03:30	Jose Eduardo Carreon Tula:	sabran el horario mas o menos?
+03:03:53	[Tutor] Jonatan Pereyra:	es en la misma franja horaria que las clases
+03:04:50	[coord]gonzalo rodriguez:	el horario suele ser en la misma franja horaria de la clase,
+pero depende más de la disponibilidad del tutor
+03:06:14	Geovanny Moreno:	si hay más o menos líneas de código, influye en la velocidad de carga de la web y experiencia del usuario?
+03:07:08	[ Tutor ] Eduardo Arevalo:	La carga va a depender de muchas cosas que ya vamos a ver
+03:07:29	[ Tutor ] Eduardo Arevalo:	la experiencia de usuario depende de como generen el aspecto visual de la pagina
+03:07:40	[ Tutor ] Eduardo Arevalo:	Por eso les pedimos que se guien con el mock up
+03:08:00	[ Tutor ] Eduardo Arevalo:	Para ya tener un pantallazo como si fueran usuarios
+03:08:35	Jorge Ruanova:	cual es la mejor practica? de mobile a desktop o al reves?
+03:08:49	[ Tutor ] Eduardo Arevalo:	De mobile a desktop
+03:09:00	[ Tutor ] Eduardo Arevalo:	Porque la mayoría hoy usa un celular antes de una pc
+03:09:16	[ Tutor ] Eduardo Arevalo:	A eso se le llama, mobile first
+03:09:20	Jorge Ruanova:	ok entonces mas adelante haríamos el refactoring del código no? porque hoy lo tenemos todo sobre desktop
+03:09:37	Jorge Ruanova:	ahhhhhhhhhh eso era lo que nunca entendia
+03:10:37	Kevin Bartoliche:	65 veces voy a tener que hacer la paguina no ? xD
+03:10:48	Kevin Bartoliche:	buenísima la clase
+03:10:52	Debora Tello:	jajja
+03:10:54	Pamela Vallejos:	Jajajajaja
+03:10:58	[ Tutor ] Eduardo Arevalo:	Algo asi Kevin jaja
+03:11:05	Debora Tello:	hay after mañana?
+03:11:10	Jorge Ruanova:	jaajajajja
+03:11:12	[Tutor] Agustin Bramsen:	Maso menos! con el tiempo vas a ir cambiando muchas cosas
+03:11:24	Gustavo Casavieja:	dejen la pagina de practica de grids
+03:11:26	[coord]gonzalo rodriguez:	va a dicta after mañana un tutor
+03:11:27	Lautaro Porzio:	nos vemos en el after de mañana entonces
+03:11:28	Gustavo Casavieja:	con jueguitos
+03:11:42	Pedro Francisco Banco:	https://cssgridgarden.com/#es
+03:11:45	Rodrigo Reparaz:	a que hora el after del tutor mañana?
+03:11:47	[coord]gonzalo rodriguez:	por la plataforma les comentaremos el horario
+03:11:47	Gustavo Casavieja:	graciassss
+03:11:52	Rodrigo Reparaz:	ah perfecto gracias
+03:11:53	Florencia Martínez:	Gracias!
+03:11:56	Carola Donadío:	Gracias!
+03:12:03	Jean Campos:	la preentrega del miércoles puede ir con grid o flexbox en alguna sección?
+03:12:04	Franco Sanchez:	👏👏😱👍
+03:12:05	Pablo Vasquez:	gracias
+03:12:09	Pedro Francisco Banco:	=)
+03:12:11	Debora Tello:	Muchas gracias!
+03:12:13	Geovanny Moreno:	👌🏽
+03:12:16	Alberto Alvarez:	Excelente la clase de hoy, muchas gracias!
+03:12:26	[ Tutor ] Eduardo Arevalo:	No, esta no se valora
+03:12:28	Matias Pereyra:	Gracias
+03:12:28	Agus Castagnino:	donde vemos que se entrega miércoles?
+03:12:32	Victor Coronel:	gracias
+03:12:32	Kevin Bartoliche:	buenisima
+03:12:33	Pamela Vallejos:	Muchas gracias!!
+03:12:34	Jaider Perez:	Presente par aJaider Dariz
+03:12:34	Ignacio Rossetto:	Chau!
+03:12:35	Maximiliano Piñero:	Buenas noches!
+03:12:35	Jaider Perez:	David*
+03:12:36	[Tutor] Ramos Felipe:	Buenas noches!
+03:12:36	Carola Donadío:	Buenas!
+03:12:36	Leandro Lobo:	gracias a todos!
+03:12:37	Diogenes Dietrich:	Buenas noches
+03:12:37	[Tutor] Agustin Bramsen:	Chau!
+03:12:37	Pablo Vasquez:	buenas noches
+03:12:37	Kevin Bartoliche:	abrazooo
+03:12:38	Pedro Francisco Banco:	No me dejo valorar la anterior =(
+03:12:38	Jesica Schaffer:	chau gracias
+03:12:38	Franco Sanchez:	nos vemoos
+03:12:39	COLAZO GONZALES JAIRO JONAS:	SALUDOS !!
+03:12:40	Jose Palestini:	buenas noches
+03:12:41	Matias Pereyra:	Porque algunas se valoran y otras no ?
+03:12:41	Alejandro Chaves:	chau
+03:12:43	[coord]gonzalo rodriguez:	saludos
+03:12:45	Santiago Altagaveite:	Buenas noches a todos!!!
+03:12:50	Agustina Ayala:	Buenas noches!!!!
+03:12:52	Edison Rojas Avila:	Buena noche
