@@ -40,6 +40,7 @@ body{
         transition: all 500ms ease;
         opacity: 0;
         visibility: hidden;
+        z-index: 1;
     }
     #bt_menu:checked ~ .container-menu{
         opacity: 1;
@@ -366,9 +367,9 @@ body{
         height: auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 200px 200px 200px 200px;
-        grid-gap: 10px;
-        padding: 20px;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        gap: 20px;
+        margin: 15px;
     }
     .item{
         border-radius: 10px;
@@ -380,7 +381,6 @@ body{
         transition: all 0.8s;
         box-shadow: 2px 2px 5px #333;
         filter: grayscale(0%);
-        /*filter: sepia()*/
     }
     .item1{
         grid-column: 1/3;
@@ -404,37 +404,37 @@ body{
         background-size: cover;
     }
     .item4{
-        grid-column: 1/5;
+        grid-column: 1/3;
         grid-row: 3/4;
         background-image: url(../resourse/images/pinte4.jpg);
         background-position: center;
         background-size: cover;
     }
     .item5{
-        grid-column: 1/3;
-        grid-row: 3/4;
+        grid-column: 1/5;
+        grid-row: 4/5;
         background-image: url(../resourse/images/pinte5.jpg);
         background-position: center;
         background-size: cover;
     }
     .item6{
-        grid-column: 3/5;
-        grid-row: 3/4;
+        grid-column: 1/3;
+        grid-row: 5/6;
         background-image: url(../resourse/images/pinte6.jpg);
         background-position: center;
         background-size: cover;
     }
     .item7{
-        grid-column: 1/3;
-        grid-row: 4/5;
+        grid-column: 3/5;
+        grid-row: 5/6;
         background-image: url(../resourse/images/pinte7.jpg);
         background-position: center;
         background-size: cover;
     }
     .item8{
-        grid-column: 3/5;
-        grid-row: 4/5;
-        background-image: url(../resourse/images/pinte8.jpg);
+        grid-column: 1/5;
+        grid-row: 6/7;
+        background-image: url(../resourse/images/pinte10.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -846,8 +846,8 @@ body{
         background-size: cover;
     }
     .item3{
-        grid-column: 3/5;
-        grid-row: 1/2;
+        grid-column: 1/2;
+        grid-row: 3/4;
         background-image: url(../resourse/images/pinte3.jpg);
         background-position: center;
         background-size: cover;
@@ -874,8 +874,8 @@ body{
         background-size: cover;
     }
     .item7{
-        grid-column: 1/2;
-        grid-row: 3/4;
+        grid-column: 3/5;
+        grid-row: 1/2;
         background-image: url(../resourse/images/pinte7.jpg);
         background-position: center;
         background-size: cover;
@@ -883,7 +883,7 @@ body{
     .item8{
         grid-column: 3/5;
         grid-row: 3/4;
-        background-image: url(../resourse/images/pinte8.jpg);
+        background-image: url(../resourse/images/pinte10.jpg);
         background-position: center;
         background-size: cover;
     }
