@@ -964,33 +964,3 @@ body{
         order: 8;       
     }
 }
-    /*
-.formContacto{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
-    width: 1000px;
-    margin: auto;
-    padding: 30px;
-}
-form fieldset{
-    text-align: center;
-    background-image: url(/resourse/images/fondoContacto.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 30px;
-    text-shadow: 2px 2px 3px black    ;
-}
-
-.carrito{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    margin-bottom: 100px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 200px;
-    border: 1px solid black;
-    background-color: #98B0A8;
-    padding: 20px 20px 20px;
-}
-
-}*/
