@@ -353,10 +353,13 @@ body{
         margin: 30px;
         box-shadow: 1px 5px 10px 2px#514438;
         border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-
     .ser_main{
         display: grid;
+        justify-content: center;
         text-align: center;
         font-size: 14px;
         color: #514438;
@@ -826,7 +829,7 @@ body{
     .ser_main{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
+        justify-items: center;
         text-align: center;
         font-size: 14px;
         color: #514438;
@@ -995,7 +998,6 @@ body{
     .ser_main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
         align-items: start;
     }
     .img_serv1{
