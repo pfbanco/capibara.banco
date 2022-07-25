@@ -1,95 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Tienda capibara, router cnc, trabajos en madera">
-    <link rel="stylesheet" type="text/css" href="./style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta nema="author" content="Pedro Francisco Banco">
-    <link rel="shortcut icon" href="./resourse/images/favicon/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Tienda capibara, router cnc, trabajos en madera"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta nema="author" content="Pedro Francisco Banco" />
+    <link
+      rel="shortcut icon"
+      href="./resourse/images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Tienda</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="menu_bar">
-            <label for="bt_menu" class="bt_menu"><i class="fa-solid fa-bars"></i></label>
-        </div>   
-        <input type="checkbox" id="bt_menu">
-        <div class="container-menu">
-            <div class="cont-menu">
-                <nav>
-                    <a href="./index.html"><i class="fa-solid fa-house"></i>Inicio</a>
-                    <a href="./servicios.html"><i class="fa-solid fa-screwdriver-wrench"></i>Servicios</a>
-                    <a href="./tienda.html"><i class="fa-solid fa-shop"></i>Tienda</a>
-                    <a href="./contacto.html"><i class="fa-solid fa-envelope"></i>Contacto</a>
-                    <a href="./galeria.html"><i class="fa-solid fa-brush"></i>Galeria</a>
-                </nav>
-        <label for="bt_menu"><i class="fa-solid fa-x"></i></label>
-            </div>
+      <div class="menu_bar">
+        <label for="bt_menu" class="bt_menu"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+      </div>
+      <input type="checkbox" id="bt_menu" />
+      <div class="container-menu">
+        <div class="cont-menu">
+          <nav>
+            <a href="./index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+            <a href="./servicios.html"
+              ><i class="fa-solid fa-screwdriver-wrench"></i>Servicios</a
+            >
+            <a href="./tienda.html"><i class="fa-solid fa-shop"></i>Tienda</a>
+            <a href="./contacto.html"
+              ><i class="fa-solid fa-envelope"></i>Contacto</a
+            >
+            <a href="./galeria.html"
+              ><i class="fa-solid fa-brush"></i>Galeria</a
+            >
+          </nav>
+          <label for="bt_menu"><i class="fa-solid fa-x"></i></label>
         </div>
+      </div>
     </header>
     <h1 class="tiendaTitulo">Tienda</h1>
-    <main>
-        <div class="galeriaTienda">
-            <div class="obj1">
-                <img src="./resourse/images/pinte4.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
+    <div class="botonCarrito">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+    </div>
+
+    <div class="galeriaTienda">
+      <div class="obj1">
+        <img src="./resourse/images/pinte4.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+      <div class="obj1">
+        <img src="./resourse/images/pinte5.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+      <div class="obj1">
+        <img src="./resourse/images/pinte6.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+      <div class="obj1">
+        <img src="./resourse/images/pinte7.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+      <div class="obj1">
+        <img src="./resourse/images/pinte8.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+      <div class="obj1">
+        <img src="./resourse/images/pinte9.jpg" alt="Cuadros en madera" />
+        <p>OFERTA $5000</p>
+        <a href="" target="">AGREGAR AL CARRITO</a>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">
+              Carrito de compras
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4 align-self-center">
+                  <img
+                    src="./resourse/images/pinte6.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Compra"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Su compra</h5>
+                    <p class="card-text">Panda</p>
+                    <p class="card-text">Precio: $5000</p>
+                    <p class="card-text">Cantidad: 1</p>
+                    <p class="card-text">
+                      <small class="text-muted"></small>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="obj1">
-                <img src="./resourse/images/pinte5.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
-            </div>
-            <div class="obj1">
-                <img src="./resourse/images/pinte6.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
-            </div>
-            <div class="obj1">
-                <img src="./resourse/images/pinte7.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
-            </div>
-            <div class="obj1">
-                <img src="./resourse/images/pinte8.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
-            </div>
-            <div class="obj1">
-                <img src="./resourse/images/pinte9.jpg" alt="Cuadros en madera">
-                <p>OFERTA $5000</p>
-                <a href="" target="">AGREGAR AL CARRITO</a>
-            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Volver atras
+            </button>
+            <button type="button" class="btn btn-primary">
+              Finalizar compra
+            </button>
+          </div>
         </div>
-    </main>
+      </div>
+    </div>
+
     <a href="#" class="subir">
-        <i class="fa-solid fa-angle-up"></i>
+      <i class="fa-solid fa-angle-up"></i>
     </a>
     <footer>
-        <div class="divFooter">
-            <div>
-                <ul>
-                    <li>Belgrano (s) 2308</li>
-                    <li>Santiago del Estero, Argentina.</li>
-                    <li>+543854064209</li>
-                    <li>pfbanco@gmail.com</li>
-                </ul>
-            </div>
-            <div>
-                <address>
-                    <a href="https://wa.me/543854064209"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/fran.banco"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/tienda.capibara/"><i class="fa-brands fa-instagram"></i></a>
-                </address>
-            </div>
+      <div class="divFooter">
+        <div>
+          <ul>
+            <li>Belgrano (s) 2308</li>
+            <li>Santiago del Estero, Argentina.</li>
+            <li>+543854064209</li>
+            <li>pfbanco@gmail.com</li>
+          </ul>
         </div>
-        <p>Copyrigth ©. Todos los derechos resevados. Argentina, 2022.</p>
+        <div>
+          <address>
+            <a href="https://wa.me/543854064209"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://www.facebook.com/fran.banco"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/tienda.capibara/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </address>
+        </div>
+      </div>
+      <p>Copyrigth ©. Todos los derechos resevados. Argentina, 2022.</p>
     </footer>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

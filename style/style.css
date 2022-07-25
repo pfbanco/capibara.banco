@@ -199,20 +199,21 @@ body{
         background-size: cover ;
         height: 200px;
         text-align: center;
+        font-weight: bold;
         color: #fff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-bottom: 20px;
+        margin-top: 30px;
     }
     .formIndex h3{
         padding: 20px;
         font-size: 20px;
-        text-shadow: 0 0 3px #000;
+        text-shadow: 1px 1px 3px #000;
     }
     .formIndex p{
         padding-bottom: 20px;
     } 
     .formIndex input{
-        height: 20px;
+        height: 30px;
     }
     /*TERMINA FORM*/
     .art-video p{
@@ -302,6 +303,35 @@ body{
         border: 2px solid #514438;
         border-radius: 30px;
         box-shadow: 0 0 5px 1px #514438;
+    }
+    .botonCarrito{
+      text-align: end;
+    }
+    .botonCarrito button{
+      background-color: #98B0A8;
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    .botonCarrito i{
+      font-size: 35px;
+      text-shadow: 1px 1px 2px #000;
+    }
+    .modal-dialog h3{
+      font-size: 30px;
+      background-color: #98B0A8;
+      width: 100%;
+      text-align: center;
+      color: #fffffa;
+      text-shadow: 1px 1px 3px black;
+    }
+    .card-body h5{
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .card-body p{
+      font-size: 20px;
     }
     .subir{
         height: 40px;
@@ -719,6 +749,35 @@ body{
         color: #fff;
         text-shadow: 1px 1px 2px #000;
     }
+    .botonCarrito{
+      text-align: end;
+    }
+    .botonCarrito button{
+      background-color: #98B0A8;
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    .botonCarrito i{
+      font-size: 35px;
+      text-shadow: 1px 1px 2px #000;
+    }
+    .modal-dialog h3{
+      font-size: 30px;
+      background-color: #98B0A8;
+      width: 100%;
+      text-align: center;
+      color: #fffffa;
+      text-shadow: 1px 1px 3px black;
+    }
+    .card-body h5{
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .card-body p{
+      font-size: 20px;
+    }
     .galeriaTienda img{
         width: 280px;
         height: 280px;
@@ -828,7 +887,7 @@ body{
         transition: all 0.8s;
         box-shadow: 2px 2px 5px #333;
         filter: grayscale(0%);
-        /*filter: sepia()*/
+
     }
     .item1{
         grid-column: 1/2;
