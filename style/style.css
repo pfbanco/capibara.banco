@@ -9,11 +9,11 @@ body{
 }
 /*-------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px){ 
-   .menu_bar{
+.menu_bar{
     display: block;
     width: 100%;
     }
-   .menu_bar .bt_menu{
+.menu_bar .bt_menu{
     display: block;
     padding: 20px;
     background-color: #d2ad6b;
@@ -21,31 +21,31 @@ body{
     text-shadow: 1px 2px 2px #514438;
     padding-bottom: 50px;
     }
-   .menu_bar i{
+.menu_bar i{
     float: left;
     font-size: 40px;
-    }
+}
     .cont-menu nav a i{
     margin: auto 10px;
     font-size: 20px;
-    }
+}
     #bt_menu{
     display: none;
-    }
-    .container-menu{
-        position: absolute;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        transition: all 500ms ease;
-        opacity: 0;
-        visibility: hidden;
-        z-index: 1;
-    }
-    #bt_menu:checked ~ .container-menu{
-        opacity: 1;
-        visibility: visible;
-    }
+}
+.container-menu{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+#bt_menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
 
     .cont-menu{
         width: 80vh;
@@ -164,13 +164,15 @@ body{
     /*ARTIMG TERMINA*/
     .galeria{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 40px 1fr 40px;
-        grid-row-gap: 10px;
-        margin: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
         justify-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .galeria img{
+        margin: 10px auto auto auto;
         width: 150px;
         height: 150px;
         box-shadow: 1px 5px 10px 2px#514438;
@@ -305,33 +307,33 @@ body{
         box-shadow: 0 0 5px 1px #514438;
     }
     .botonCarrito{
-      text-align: end;
+        text-align: end;
     }
     .botonCarrito button{
-      background-color: #98B0A8;
-      width: 60px;
-      height: 60px;
-      margin-right: 20px;
-      margin-top: 10px;
+        margin-top: 10px;
+        background-color: #98B0A8;
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
     }
     .botonCarrito i{
-      font-size: 35px;
-      text-shadow: 1px 1px 2px #000;
+        font-size: 35px;
+        text-shadow: 1px 1px 2px #000;
     }
     .modal-dialog h3{
-      font-size: 30px;
-      background-color: #98B0A8;
-      width: 100%;
-      text-align: center;
-      color: #fffffa;
-      text-shadow: 1px 1px 3px black;
+        font-size: 30px;
+        background-color: #98B0A8;
+        width: 100%;
+        text-align: center;
+        color: #fffffa;
+        text-shadow: 1px 1px 3px black;
     }
     .card-body h5{
-      font-size: 25px;
-      font-weight: bold;
+        font-weight: bold;
+        font-size: 25px;
     }
     .card-body p{
-      font-size: 20px;
+        font-size: 20px;
     }
     .subir{
         height: 40px;
@@ -477,7 +479,7 @@ body{
     .galeria{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 40px 1fr 40px;
+        grid-template-rows: 1fr 1fr;
         grid-row-gap: 30px;
         justify-items: center;
     }
@@ -646,11 +648,12 @@ body{
     }
     /*ARTIMG TERMINA*/
     .galeria{
+
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 40px 1fr 40px;
-        grid-row-gap: 20px;
+        grid-template-rows: 1fr 1fr;
         justify-items: center;
+        text-align: center;
     }
     .galeria img{
         width: 300px;
@@ -753,33 +756,33 @@ body{
         text-shadow: 1px 1px 2px #000;
     }
     .botonCarrito{
-      text-align: end;
+        text-align: end;
     }
     .botonCarrito button{
-      background-color: #98B0A8;
-      width: 60px;
-      height: 60px;
-      margin-right: 20px;
-      margin-top: 10px;
+        background-color: #98B0A8;
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        margin-top: 10px;
     }
     .botonCarrito i{
-      font-size: 35px;
-      text-shadow: 1px 1px 2px #000;
+        font-size: 35px;
+        text-shadow: 1px 1px 2px #000;
     }
     .modal-dialog h3{
-      font-size: 30px;
-      background-color: #98B0A8;
-      width: 100%;
-      text-align: center;
-      color: #fffffa;
-      text-shadow: 1px 1px 3px black;
+        font-size: 30px;
+        background-color: #98B0A8;
+        width: 100%;
+        text-align: center;
+        color: #fffffa;
+        text-shadow: 1px 1px 3px black;
     }
     .card-body h5{
-      font-size: 25px;
-      font-weight: bold;
+        font-size: 25px;
+        font-weight: bold;
     }
     .card-body p{
-      font-size: 20px;
+        font-size: 20px;
     }
     .galeriaTienda img{
         width: 280px;
