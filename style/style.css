@@ -7,7 +7,7 @@
 body{
     background-color: #fffffa;
 }
-/*-------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------COMIENZO MEDIA 1----------------------------*/
 @media only screen and (max-width: 768px){ 
 .menu_bar{
     display: block;
@@ -81,7 +81,7 @@ body{
         cursor: pointer;
         text-shadow: 1px 2px 2px #514438;
     }
-    /*HEADRE TERMINA*/
+    /*----------------------------TERMINA HEADER----------------------------*/
 
     .main-izq{
         background-color:#98B0A8;
@@ -139,7 +139,7 @@ body{
         list-style: none;
         text-align: center;
     }
-        /*MAIN TERMINA*/
+    /*----------------------------TERMINA SECTION MAIN----------------------------*/
     .art-img{
         display: flex;
         flex-direction: column;
@@ -161,7 +161,7 @@ body{
         margin: 5px;
         padding-top: 10px;
     }
-    /*ARTIMG TERMINA*/
+    /*----------------------------TERMINA SECTION ARTICLE 1----------------------------*/
     .galeria{
         display: grid;
         grid-template-columns: 1fr;
@@ -179,9 +179,7 @@ body{
         border-radius: 20px;
     }
     .galeria div a{
-        text-decoration: none;
         font-size: 10px;
-        font-weight: bold;
         color: #514438;
         padding: 5px;
         background-color:#98B0A8;
@@ -193,8 +191,9 @@ body{
         box-shadow: none;
         background-color: #514438;
         color: #98B0A8;
+        border: none;
     }
-    /*GALERIA TERMINA*/
+    /*----------------------------TERMINA SECTION GALERIA----------------------------*/
     .formIndex{
         background-image: url(../resourse/images/fondoContacto.jpg);
         background-position: center;
@@ -217,7 +216,7 @@ body{
     .formIndex input{
         height: 30px;
     }
-    /*TERMINA FORM*/
+    /*----------------------------TERMINA FORMULARIO----------------------------*/
     .art-video p{
         font-size: 16px;
         color: #514438;
@@ -233,7 +232,7 @@ body{
         margin-right: auto;
         display: block;
     }
-    /*TERMINA ARTIMG*/
+    /*----------------------------TERMINA SECTION ARTICLE 2----------------------------*/
     footer{
         margin-top: 20px;
         background-color: #98B0A8;
@@ -266,7 +265,7 @@ body{
         font-size: 12px;
         color: #000;
     }
-    /*TERMINA PAG PRINCIPAL*******************************************************************/
+    /*----------------------------TERMINA PAGINA PRINCIPAL----------------------------*/
     .tiendaTitulo{
         font-size: 40px;
         padding: 20px;
@@ -280,6 +279,7 @@ body{
         margin: 30px;
         box-shadow: 1px 5px 10px 2px#514438;
         border-radius: 30px;
+        margin-bottom: 20px;
     }
     .galeriaTienda img:hover{
         transform: scale(1.05);
@@ -302,14 +302,19 @@ body{
         color: #514438;
         padding: 10px;
         background-color:#98B0A8;
-        border: 2px solid #514438;
         border-radius: 30px;
-        box-shadow: 0 0 5px 1px #514438;
+        margin-top: 10px;
+    }
+    .galeriaTienda a:hover{
+        box-shadow: none;
+        background-color: #514438;
+        color: #98B0A8;
     }
     .botonCarrito{
         text-align: end;
     }
     .botonCarrito button{
+        border: none;
         margin-top: 10px;
         background-color: #98B0A8;
         width: 60px;
@@ -343,9 +348,9 @@ body{
         bottom: 130px;
         right: 20px;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         color: #fff;
-        border: 3px solid #fff;
+        border: 2px solid #fff;
         border-radius: 50%;
         box-shadow: 2px 2px 2px #514438;
     }
@@ -396,7 +401,7 @@ body{
         padding: 20px;
         text-shadow: 2px 2px 3px black;
     }
-    /*GALERIA*/
+    /*----------------------------PAGINA GALERIA----------------------------*/
     .galeriaDiv{
         width: 100%;
         height: auto;
@@ -474,7 +479,7 @@ body{
         background-size: cover;
     }
 }
-    /*MEDIA 1.5------------------------------------------------------------------------------*/
+    /*----------------------------COMIENZO MEDIA 1.5----------------------------*/
 @media only screen and (min-width: 500px){
     .galeria{
         display: grid;
@@ -507,7 +512,7 @@ body{
         margin-right: auto;
         display: block;
     }
-    /*TERMINA PAG PRINCIPAL*******************************************************************/
+    /*----------------------------TERMINA PAG PRINCIPAL----------------------------*/
     .galeriaTienda{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -523,7 +528,7 @@ body{
 }
     
 
-/* MEDIA 2---------------------------------------------------------------------------------------------------*/
+/*----------------------------COMIENZO MEDIA 2----------------------------*/
 @media only screen and (min-width: 768px){
     .menu_bar, input, label{
         visibility: hidden;
@@ -646,9 +651,7 @@ body{
         margin: 30px 10px;
         padding: 10px;
     }
-    /*ARTIMG TERMINA*/
     .galeria{
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -662,9 +665,7 @@ body{
         border-radius: 20px;
     }
     .galeria div a{
-        text-decoration: none;
         font-size: 20px;
-        font-weight: bold;
         color: #514438;
         padding: 10px;
         background-color:#98B0A8;
@@ -676,6 +677,7 @@ body{
         box-shadow: none;
         background-color: #514438;
         color: #98B0A8;
+        border: none;
     }
     .formIndex{
         background-image: url(../resourse/images/fondoContacto.jpg);
@@ -709,7 +711,6 @@ body{
         font-style: italic;
         font-weight: bolder;
         text-align: center;
-
     }
     .art-video iframe{
         margin-right: 30px;
@@ -747,7 +748,7 @@ body{
         padding-bottom: 10px;
         font-size: 16px;
     }
-    /*TERMINA PAGINA PRINCIPAL**************************************************************/
+    /*----------------------------TERMINA PAG PRINCIPAL----------------------------*/
     .tiendaTitulo{
         font-size: 50px;
         padding: 20px;
@@ -764,6 +765,7 @@ body{
         height: 60px;
         margin-right: 20px;
         margin-top: 10px;
+        border: none;
     }
     .botonCarrito i{
         font-size: 35px;
@@ -815,9 +817,12 @@ body{
         color: #514438;
         padding: 10px;
         background-color:#98B0A8;
-        border: 2px solid #514438;
         border-radius: 30px;
-        box-shadow: 0 0 5px 1px #514438;
+    }
+    .galeriaTienda a:hover{
+        box-shadow: none;
+        background-color: #514438;
+        color: #98B0A8;
     }
     .subir i{
         visibility: hidden;
@@ -960,7 +965,7 @@ body{
     }
 
 }
-/*MEDIA 3----------------------------------------------------------------------------------*/
+/*----------------------------COMIENZO MEDIA 3----------------------------*/
 @media only screen and (min-width: 1200px){
     .galeria{
         display: grid;
