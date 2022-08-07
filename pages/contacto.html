@@ -16,9 +16,9 @@
     rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
     crossorigin="anonymous"
-    />
-    <title>Servicios</title>
-    <link rel="stylesheet" type="text/css" href="./style/style.css">
+  />
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
 <body>
     <header>
@@ -29,47 +29,55 @@
         <div class="container-menu">
             <div class="cont-menu">
                 <nav>
-                    <a href="./index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+                    <a href="../index.html"><i class="fa-solid fa-house"></i>Inicio</a>
                     <a href="./servicios.html"><i class="fa-solid fa-screwdriver-wrench"></i>Servicios</a>
                     <a href="./tienda.html"><i class="fa-solid fa-shop"></i>Tienda</a>
                     <a href="./contacto.html"><i class="fa-solid fa-envelope"></i>Contacto</a>
-                    <a href="./galeria.html"><i class="fa-solid fa-brush"></i>Galeria</a>
+                    <a href="./galeria.html"><i class="fa-solid fa-brush"></i></i>Galeria</a>
                 </nav>
         <label for="bt_menu"><i class="fa-solid fa-x"></i></label>
             </div>
         </div>
     </header>
-    <h1 class="tiendaTitulo">Servicios</h1>
-    <div class="ser_main">
-        <div class="card" style="width: 18rem;">
-            <img src="./resourse/images/servicios1.jpg" class="card-img-top" alt="CNC Trabajando">
-            <div class="card-body">
-                <h3>SERVICIOS</h3>
-              <p class="card-text">Con más de 25 años de experiencia prestamos un servicio de excelente calidad. Diseñando y fabricando equipamento integrales para cocinas, interiores y frente de placares, vestidores, restauración y colocación de pisos, diseño y fabricación de muebles, restauración de muebles, lustrado de superficies de madera, colocación de Persianas, fabricación de mesa ratona, mesa de luz y mucho más!</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./resourse/images/servicios2.jpg" class="card-img-top" alt="CNC Trabajando">
-            <div class="card-body">
-                <h3>SERVICIOS EXPRESS</h3>
-              <p class="card-text">Tenemos la posibilidad de realizar una visita para una reparación express o de emergencia, por ejemplo: Reparaciones de puertas, alacenas, ventanas, persianas, mesadas, bisagras, pisos de madera, reparaciones de mesas o cajoneras y mucho más!</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./resourse/images/servicios3.jpg" class="card-img-top" alt="Calculadora">
-            <div class="card-body">
-                <h3>PRESUPUESTO</h3>
-              <p class="card-text">Realizamos visita para evaluación y elaboración de presupuesto sin compromiso, una vez aprobado, comenzamos el proceso de diseño incluido en el presupuesto.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./resourse/images/servicios4.jpg" class="card-img-top" alt="Productos">
-            <div class="card-body">
-              <h3>TIENDA ONLINE</h3>
-              <p class="card-text">Contamos con stock de muebles y artículos terminados para la venta OnLiene con servicio de envío incluido.</p>
-            </div>
-          </div>
-    </div>
+    <h1 class="tiendaTitulo">Contacto</h1>
+    <h2 class="h2Contacto">¡Estas a un paso de tu presupuesto presonalizado!</h2>
+    <form action="" method="post" enctype="" class="formContacto">
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+        </br>
+        </br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido" id="apellido" required>
+        </br>
+        </br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+        </br>
+        </br>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" placeholder="Telefono" id="telefono" required>
+        </br>
+        </br>
+            <label for="extra">¿En qué podemos ayudarte?</label>
+        </br>
+            <textarea id="extra" name="extra" rows="10" cols="50" class="extra"></textarea>      
+        </br>
+            <p>¿Qué tipo de información  quieres recibir?</p>
+            <input type="checkbox" id="promociones" name="promociones" value="promociones" >
+            <label for="promociones" class="checkbox">Promociones</label>
+            <input type="checkbox" id="ofertas" name="ofertas" value="ofertas" >
+            <label for="ofertas" class="checkbox">Ofertas</label>
+            <input type="checkbox" id="presupuestos" name="presupuestos" value="presupuestos" >
+            <label for="presupuestos" class="checkbox">Presupuestos</label>
+            <input type="checkbox" id="nuevostrabajos" name="nuevostrabajos" value="nuevostrabajos" >
+            <label for="nuevostrabajos" class="checkbox">Nuevos trabajos</label>
+        </br>
+        </br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar campos">
+            </fieldset>
+    </form>
     <footer>
         <div class="divFooter">
             <div>
