@@ -114,13 +114,21 @@ body {
     font-style: italic;
   }
   main div a {
+    font-size: 1rem;
     color: #514438;
-    font-size: 15px;
     padding: 10px;
     text-decoration: none;
-    border: 3px solid #514438;
+    border: 1px solid #514438;
     border-radius: 30px;
-    box-shadow: 0 0 5px 1px #514438;
+    box-shadow: 0 0 2px 1px #514438;
+    /*
+    color: map-get($paleta, color2);
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid map-get($paleta, color2);
+    border-radius: 30px;
+    box-shadow: 0 0 5px 1px map-get($paleta, color2);*/
   }
   main div a:hover {
     box-shadow: none;
@@ -177,15 +185,23 @@ body {
     box-shadow: 1px 5px 10px 2px #514438;
     border-radius: 20px;
   }
-  .galeria .card-body .btn {
-    padding: 5px;
-    background-color: #98b0a8;
+  .galeria .card-body .btn-primary {
+    font-size: 1rem;
+    color: #514438;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #514438;
+    border-radius: 30px;
+    box-shadow: 0 0 2px 1px #514438;
+    border-radius: 10px;
+    /*padding: 5px;
+    background-color: map-get($paleta, color3);
     border: none;
     border-radius: 0px;
     font-size: 15px;
-    color: #514438;
+    color: map-get($paleta, color2);*/
   }
-  .galeria .card-body .btn:hover {
+  .galeria .card-body .btn-primary:hover {
     box-shadow: none;
     background-color: #514438;
     color: #98b0a8;
@@ -294,14 +310,22 @@ body {
     padding: 10px;
   }
   .galeriaTienda a {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 1rem;
     color: #514438;
     padding: 10px;
+    text-decoration: none;
+    border: 1px solid #514438;
+    border-radius: 30px;
+    box-shadow: 0 0 2px 1px #514438;
     background-color: #98b0a8;
+    /*font-size: 16px;
+    font-weight: bold;
+    color: map-get($paleta, color2);
+    padding: 10px;
+    background-color: map-get($paleta, color3);
     border-radius: 30px;
     margin-top: 10px;
-    text-decoration: none;
+    text-decoration: none;*/
   }
   .galeriaTienda a:hover {
     background-color: #514438;
@@ -614,16 +638,25 @@ label {
     line-height: 40px;
     font-size: 24px;
   }
-  main div a {
-    font-size: 20px;
+  main .btn-conocemas {
+    font-size: 1rem;
+    color: #514438;
     padding: 10px;
     text-decoration: none;
-    border: 3px solid #514438;
+    border: 1px solid #514438;
     border-radius: 30px;
-    box-shadow: 0 0 5px 1px #514438;
-    color: #514438;
+    box-shadow: 0 0 2px 1px #514438;
+    font-size: 20px;
+    font-weight: bold;
+    /*font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 3px solid map-get($paleta, color2);
+    border-radius: 30px;
+    box-shadow: 0 0 5px 1px map-get($paleta, color2);
+    color: map-get($paleta, color2);*/
   }
-  main div a:hover {
+  main .btn-conocemas:hover {
     background-color: #514438;
     color: #98b0a8;
     box-shadow: none;
@@ -661,22 +694,30 @@ label {
     justify-items: center;
     text-align: center;
   }
-  .galeria img {
-    height: 300px;
+  .galeria .card-img-top {
+    margin: 15px auto;
+    height: 270px;
     box-shadow: 1px 5px 10px 2px #514438;
     border-radius: 20px;
-    margin-bottom: 15px;
-    width: 300px;
+    width: 270px;
   }
-  .galeria div a {
+  .galeria div .btn-primary {
+    font-size: 1rem;
     color: #514438;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #514438;
+    border-radius: 30px;
+    box-shadow: 0 0 2px 1px #514438;
+    border-radius: 10px;
+    /*color: map-get($paleta, color2);
     padding: 8px;
-    background-color: #98b0a8;
+    background-color: map-get($paleta, color3);
     border: none;
-    border-radius: 0px;
+    border-radius: 0px;*/
     font-size: 20px;
   }
-  .galeria a:hover {
+  .galeria .btn-primary:hover {
     color: #98b0a8;
     border: none;
     background-color: #514438;
@@ -813,12 +854,20 @@ label {
     padding: 10px;
   }
   .galeriaTienda a {
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 1rem;
     color: #514438;
     padding: 10px;
-    background-color: #98b0a8;
+    text-decoration: none;
+    border: 1px solid #514438;
     border-radius: 30px;
+    box-shadow: 0 0 2px 1px #514438;
+    background-color: #98b0a8;
+    /*text-decoration: none;
+    font-weight: bold;
+    color: map-get($paleta, color2);
+    padding: 10px;
+    background-color: map-get($paleta, color3);
+    border-radius: 30px;*/
     font-size: 16px;
   }
   .galeriaTienda a:hover {
@@ -841,7 +890,7 @@ label {
   }
   .ser_main img {
     height: 250px;
-    margin: 30px;
+    margin: 30px auto;
     box-shadow: 1px 5px 10px 2px #514438;
     border-radius: 50%;
     width: 250px;

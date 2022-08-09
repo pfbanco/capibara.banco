@@ -1,8 +1,20 @@
-$color1: #d2ad6b;
-$color2: #514438;
-$color3: #98b0a8;
-$color4: #fffffa;
+$paleta: (
+  color1: #d2ad6b,
+  color2: #514438,
+  color3: #98b0a8,
+  color4: #fffffa,
+);
 $font1: "Ubuntu", sans-serif;
+
+@mixin botones {
+  font-size: 1rem;
+  color: map-get($paleta, color2);
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid map-get($paleta, color2);
+  border-radius: 30px;
+  box-shadow: 0 0 2px 1px map-get($paleta, color2);
+}
 
 *{
     padding: 0;
@@ -11,7 +23,7 @@ $font1: "Ubuntu", sans-serif;
     box-sizing: border-box;
 }
 body {
-    background-color: $color4;
+    background-color: map-get($paleta , color4);
 }
 /*----------------------------COMIENZO MEDIA 1----------------------------*/
 @media only screen and (max-width: 768px) {
@@ -22,9 +34,9 @@ body {
   .menu_bar .bt_menu {
     display: block;
     padding: 20px;
-    background-color: $color1;
-    color: $color4;
-    text-shadow: 1px 2px 2px $color2;
+    background-color: map-get($paleta, color1);
+    color: map-get($paleta, color4);
+    text-shadow: 1px 2px 2px map-get($paleta, color2);
     padding-bottom: 50px;
   }
   .menu_bar i {
@@ -51,7 +63,7 @@ body {
   .cont-menu {
     width: 80vh;
     max-width: 250px;
-    background-color: $color1;
+    background-color: map-get($paleta, color1);
     height: 100vh;
     position: relative;
     transform: all 500ms ease;
@@ -60,10 +72,10 @@ body {
             a {
                 text-decoration: none;
                 padding: 20px;
-                color: $color4;
+                color: map-get($paleta, color4);
                 border-left: 5px solid transparent;
                 transition: all 400ms ease;
-                text-shadow: 1px 2px 2px $color2;
+                text-shadow: 1px 2px 2px map-get($paleta, color2);
                 display: block;
                 i {
                     margin: auto 10px;
@@ -71,33 +83,33 @@ body {
                 }
             }
             a:hover {
-                background-color: $color2;
-                border-left: 5px solid $color3;
+                background-color: map-get($paleta, color2);
+                border-left: 5px solid map-get($paleta, color3);
             }
         }
         label {
             right: 5px;
             top: 10px;
-            color: $color4;
+            color: map-get($paleta, color4);
             font-size: 18px;
             cursor: pointer;
-            text-shadow: 1px 2px 2px $color2;
+            text-shadow: 1px 2px 2px map-get($paleta, color2);
             position: absolute;
         }
   }
   /*----------------------------TERMINA HEADER----------------------------*/
   .main-izq {
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
     padding-bottom: 30px;
         h1 {
         padding-top: 15px;
         width: 100%;
         font-size: 40px;
-        color: $color2;
+        color: map-get($paleta, color2);
         text-align: center;
             span {
-            color: $color1;
-            text-shadow: 0 0 2px $color2;
+            color: map-get($paleta, color1);
+            text-shadow: 0 0 2px map-get($paleta, color2);
             }
         }
   }
@@ -114,22 +126,24 @@ body {
     max-width: 90%;
     line-height: 25px;
     margin: 20px 20px 20px 40px;
-    color: $color2;
+    color: map-get($paleta, color2);
     font-style: italic;
   }
   main div a {
-    color: $color2;
-    font-size: 15px;
+    @include botones;
+    /*
+    color: map-get($paleta, color2);
+    font-size: 16px;
     padding: 10px;
     text-decoration: none;
-    border: 3px solid $color2;
+    border: 3px solid map-get($paleta, color2);
     border-radius: 30px;
-    box-shadow: 0 0 5px 1px $color2;
+    box-shadow: 0 0 5px 1px map-get($paleta, color2);*/
   }
   main div a:hover {
     box-shadow: none;
-    background-color: $color2;
-    color: $color3;
+    background-color: map-get($paleta, color2);
+    color: map-get($paleta, color3);
   }
   .conoceMas {
     text-align: center;
@@ -138,7 +152,7 @@ body {
   main ul {
     font-size: 19px;
     margin-top: 20px;
-    color: $color2;
+    color: map-get($paleta, color2);
     list-style: none;
     text-align: center;
   }
@@ -151,12 +165,12 @@ body {
         img {
         width: 200px;
         height: 200px;
-        box-shadow: 1px 5px 10px 2px$color2;
+        box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
         border-radius: 20px;
         }
         p {
         font-size: 16px;
-        color: $color2;
+        color: map-get($paleta, color2);
         font-style: italic;
         font-weight: bolder;
         text-align: center;
@@ -177,22 +191,24 @@ body {
             margin: 10px auto 10px auto;
             width: 150px;
             height: 150px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 20px;
         }
         .card-body{
-            .btn{
-                padding: 5px;
-                background-color: $color3;
+            .btn-primary{
+              @include botones;
+              border-radius: 10px;
+                /*padding: 5px;
+                background-color: map-get($paleta, color3);
                 border: none;
                 border-radius: 0px;
                 font-size: 15px;
-                color: $color2;
+                color: map-get($paleta, color2);*/
             }
-            .btn:hover {
+            .btn-primary:hover {
                 box-shadow: none;
-                background-color: $color2;
-                color: $color3;
+                background-color: map-get($paleta, color2);
+                color: map-get($paleta, color3);
                 border: none;
             }
         }
@@ -224,7 +240,7 @@ body {
   .art-video{
         p {
             font-size: 16px;
-            color: $color2;
+            color: map-get($paleta, color2);
             font-style: italic;
             font-weight: bolder;
             text-align: center;
@@ -241,7 +257,7 @@ body {
   /*----------------------------TERMINA SECTION ARTICLE 2----------------------------*/
   footer {
     margin-top: 20px;
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
         p {
             padding-bottom: 10px;
             font-size: 12px;
@@ -251,7 +267,7 @@ body {
         div ul {
             padding: 20px;
             font-size: 12px;
-            color: $color4;
+            color: map-get($paleta, color4);
             text-shadow: 1px 1px 2px #000;
             list-style: none;
         }
@@ -267,7 +283,7 @@ body {
             font-size: 30px;
             letter-spacing: 10px;
             text-decoration: none;
-            color: $color4;
+            color: map-get($paleta, color4);
             text-shadow: 1px 1px 2px #000;
         }
   }
@@ -275,20 +291,20 @@ body {
   .tiendaTitulo {
     font-size: 40px;
     padding: 20px;
-    background-color: $color3;
-    color: $color4;
+    background-color: map-get($paleta, color3);
+    color: map-get($paleta, color4);
     text-shadow: 1px 1px 2px #000;
   }
   .galeriaTienda {
     text-align: center;
     font-size: 20px;
-    color: $color2;
-    text-shadow: 1px 1px 1px $color3;
+    color: map-get($paleta, color2);
+    text-shadow: 1px 1px 1px map-get($paleta, color3);
     margin: 10px;
         img {
             width: 200px;
             margin: 30px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 30px;
             margin-bottom: 20px;
             height: 200px;
@@ -301,18 +317,20 @@ body {
             padding: 10px;
         }
         a {
-            font-size: 16px;
+          @include botones;
+          background-color: map-get($paleta, color3);
+            /*font-size: 16px;
             font-weight: bold;
-            color: $color2;
+            color: map-get($paleta, color2);
             padding: 10px;
-            background-color: $color3;
+            background-color: map-get($paleta, color3);
             border-radius: 30px;
             margin-top: 10px;
-            text-decoration: none;
+            text-decoration: none;*/
         }
         a:hover {
-            background-color: $color2;
-            color: $color3;
+            background-color: map-get($paleta, color2);
+            color: map-get($paleta, color3);
             box-shadow: none;
         }
   }
@@ -320,7 +338,7 @@ body {
     text-align: end;
         button {
             margin-top: 10px;
-            background-color: $color3;
+            background-color: map-get($paleta, color3);
             width: 60px;
             height: 60px;
             margin-right: 20px;
@@ -333,10 +351,10 @@ body {
   }
   .modal-dialog h3 {
     font-size: 30px;
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
     width: 100%;
     text-align: center;
-    color: $color4;
+    color: map-get($paleta, color4);
     text-shadow: 1px 1px 3px black;
   }
   .card-body{
@@ -351,29 +369,29 @@ body {
   .subir {
     height: 40px;
     width: 40px;
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
     position: fixed;
     bottom: 130px;
     right: 20px;
     text-align: center;
     font-size: 25px;
-    color: $color4;
-    border: 2px solid $color4;
+    color: map-get($paleta, color4);
+    border: 2px solid map-get($paleta, color4);
     border-radius: 50%;
-    box-shadow: 2px 2px 2px $color2;
+    box-shadow: 2px 2px 2px map-get($paleta, color2);
   }
   .ser_main {
     display: grid;
     justify-content: center;
     text-align: center;
     font-size: 14px;
-    color: $color2;
-    text-shadow: 1px 1px 1px $color3;
+    color: map-get($paleta, color2);
+    text-shadow: 1px 1px 1px map-get($paleta, color3);
     margin: 10px;
         img {
             height: 150px;
             margin: 30px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 50%;
             display: block;
             margin-left: auto;
@@ -385,7 +403,7 @@ body {
         }
   }
   .formContacto {
-    color: $color4;
+    color: map-get($paleta, color4);
     width: fit-content;
     margin: 0 auto;
     padding: 30px;
@@ -498,18 +516,18 @@ body {
         img {
             width: 230px;
             height: 230px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 20px;
         }
         div a {
             text-decoration: none;
             font-size: 14px;
-            color: $color2;
+            color: map-get($paleta, color2);
             padding: 10px;
-            background-color: $color3;
-            border: 2px solid $color2;
+            background-color: map-get($paleta, color3);
+            border: 2px solid map-get($paleta, color2);
             border-radius: 30px;
-            box-shadow: 0 0 5px 1px $color2;
+            box-shadow: 0 0 5px 1px map-get($paleta, color2);
             font-weight: bold;
         }
   }
@@ -557,22 +575,22 @@ body {
     visibility: visible;
   }
   header {
-    background-color: $color1;
+    background-color: map-get($paleta, color1);
   }
   .cont-menu nav a {
     text-decoration: none;
-    color: $color4;
+    color: map-get($paleta, color4);
     font-size: 20px;
     padding: 20px;
     font-weight: bold;
     list-style-type: none;
-    text-shadow: 1px 2px 2px $color2;
+    text-shadow: 1px 2px 2px map-get($paleta, color2);
         i {
             padding-right: 10px;
         }
   }
   .main-izq {
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
     float: left;
     width: 60%;
     height: 80vh;
@@ -597,11 +615,11 @@ body {
   }
   h1 {
     font-size: 55px;
-    color: $color2;
+    color: map-get($paleta, color2);
     padding: 20px;
         span {
-            color: $color1;
-            text-shadow: 0 0 2px $color2;
+            color: map-get($paleta, color1);
+            text-shadow: 0 0 2px map-get($paleta, color2);
         }
   }
   main{
@@ -609,7 +627,7 @@ body {
             font-size: 22px;
             text-align: center;
             line-height: 40px;
-            color: $color2;
+            color: map-get($paleta, color2);
             font-weight: bold;
         }
         ul {
@@ -617,22 +635,25 @@ body {
             font-style: italic;
             list-style: none;
             text-align: center;
-            color: $color2;
+            color: map-get($paleta, color2);
             line-height: 40px;
             font-size: 24px;
         }
-        div a {
-            font-size: 20px;
+        .btn-conocemas {
+          @include botones;
+          font-size: 20px;
+          font-weight: bold;
+            /*font-size: 20px;
             padding: 10px;
             text-decoration: none;
-            border: 3px solid $color2;
+            border: 3px solid map-get($paleta, color2);
             border-radius: 30px;
-            box-shadow: 0 0 5px 1px $color2;
-            color: $color2;
+            box-shadow: 0 0 5px 1px map-get($paleta, color2);
+            color: map-get($paleta, color2);*/
         }
-        div a:hover {
-            background-color: $color2;
-            color: $color3;
+        .btn-conocemas:hover {
+            background-color: map-get($paleta, color2);
+            color: map-get($paleta, color3);
             box-shadow: none;
         }
   }
@@ -646,14 +667,14 @@ body {
     justify-content: space-between;
     align-items: center;
         img {
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 20px;
             width: 350px;
             height: 270px;
             margin: 40px 50px 50px 70px;
         }
         p {
-            color: $color2;
+            color: map-get($paleta, color2);
             font-style: italic;
             font-weight: bolder;
             text-align: center;
@@ -668,25 +689,27 @@ body {
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     text-align: center;
-        img {
-            height: 300px;
-            box-shadow: 1px 5px 10px 2px$color2;
+        .card-img-top {
+            margin: 15px auto;
+            height: 270px;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 20px;
-            margin-bottom: 15px;
-            width: 300px;
+            width: 270px;
         }
-        div a {
-            color: $color2;
+        div .btn-primary {
+            @include botones;
+            border-radius: 10px;
+            /*color: map-get($paleta, color2);
             padding: 8px;
-            background-color: $color3;
+            background-color: map-get($paleta, color3);
             border: none;
-            border-radius: 0px;
+            border-radius: 0px;*/
             font-size: 20px;
         }
-        a:hover {
-            color: $color3;
+        .btn-primary:hover {
+            color: map-get($paleta, color3);
             border: none;
-            background-color: $color2;
+            background-color: map-get($paleta, color2);
         }
   }
   .formIndex {
@@ -695,7 +718,7 @@ body {
     background-size: cover;
     height: 200px;
     text-align: center;
-    color: $color4;
+    color: map-get($paleta, color4);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
         h3 {
@@ -715,7 +738,7 @@ body {
     margin-top: 40px;
     align-items: center;
         p {
-            color: $color2;
+            color: map-get($paleta, color2);
             font-style: italic;
             font-weight: bolder;
             text-align: center;
@@ -729,12 +752,12 @@ body {
   }
   footer {
     margin-top: 40px;
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
         div ul {
             list-style: none;
             padding: 30px;
             font-size: 20px;
-            color: $color4;
+            color: map-get($paleta, color4);
             text-shadow: 1px 1px 2px #000;
         }
         p {
@@ -753,7 +776,7 @@ body {
         i {
             letter-spacing: 20px;
             text-decoration: none;
-            color: $color4;
+            color: map-get($paleta, color4);
             text-shadow: 1px 1px 2px #000;
             font-size: 40px;
         }
@@ -762,8 +785,8 @@ body {
   .tiendaTitulo {
     font-size: 50px;
     padding: 20px;
-    background-color: $color3;
-    color: $color4;
+    background-color: map-get($paleta, color3);
+    color: map-get($paleta, color4);
     text-shadow: 1px 1px 2px #000;
   }
   .botonCarrito {
@@ -774,7 +797,7 @@ body {
             margin-right: 20px;
             margin-top: 10px;
             border: none;
-            background-color: $color3;
+            background-color: map-get($paleta, color3);
         }
         i {
             text-shadow: 1px 1px 2px #000;
@@ -783,10 +806,10 @@ body {
   }
   .modal-dialog h3 {
     font-size: 30px;
-    background-color: $color3;
+    background-color: map-get($paleta, color3);
     width: 100%;
     text-align: center;
-    color: $color4;
+    color: map-get($paleta, color4);
     text-shadow: 1px 1px 3px black;
   }
   .card-body{
@@ -804,13 +827,13 @@ body {
     grid-template-rows: 1fr 1fr;
     text-align: center;
     font-size: 20px;
-    color: $color2;
-    text-shadow: 1px 1px 1px $color3;
+    color: map-get($paleta, color2);
+    text-shadow: 1px 1px 1px map-get($paleta, color3);
     margin: 10px;
         img {
             height: 280px;
             margin: 30px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 30px;
             width: 280px;
         }
@@ -822,17 +845,19 @@ body {
             padding: 10px;
         }
         a {
-            text-decoration: none;
+          @include botones;
+          background-color: #98b0a8;
+            /*text-decoration: none;
             font-weight: bold;
-            color: $color2;
+            color: map-get($paleta, color2);
             padding: 10px;
-            background-color: $color3;
-            border-radius: 30px;
+            background-color: map-get($paleta, color3);
+            border-radius: 30px;*/
             font-size: 16px;
         }
         a:hover {
-            background-color: $color2;
-            color: $color3;
+            background-color: map-get($paleta, color2);
+            color: map-get($paleta, color3);
             box-shadow: none;
         }
   }
@@ -845,13 +870,13 @@ body {
     justify-items: center;
     text-align: center;
     font-size: 14px;
-    color: $color2;
-    text-shadow: 1px 1px 1px $color3;
+    color: map-get($paleta, color2);
+    text-shadow: 1px 1px 1px map-get($paleta, color3);
     margin: 10px;
         img {
             height: 250px;
-            margin: 30px;
-            box-shadow: 1px 5px 10px 2px$color2;
+            margin: 30px auto;
+            box-shadow: 1px 5px 10px 2px map-get($paleta, color2);
             border-radius: 50%;
             width: 250px;
         }
@@ -863,7 +888,7 @@ body {
         }
   }
   .formContacto {
-    color: $color4;
+    color: map-get($paleta, color4);
     width: 800px;
     margin: 0 auto;
     padding: 30px;
